@@ -20,7 +20,7 @@ class _MenuDashboardPageState extends State<MenuDashboardPage> with SingleTicker
   void initState() {
     super.initState();
     _controller = AnimationController(vsync: this, duration: duration);
-    _scaleAnimation = Tween<double>(begin: 1, end: 0.8).animate(_controller);
+    _scaleAnimation = Tween<double>(begin: 1, end: 0.7).animate(_controller);
     _slideAnimation = Tween<Offset>(begin: Offset(-1, 0), end: Offset(0, 0)).animate(_controller);
   }
 
